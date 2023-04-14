@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TP1_CALIDAD_UNLAM/static/css/main.073c9b0a.css",
-    "main.js": "/TP1_CALIDAD_UNLAM/static/js/main.3ed936fb.js",
+    "main.js": "/TP1_CALIDAD_UNLAM/static/js/main.998f82e9.js",
     "static/js/787.28cb0dcd.chunk.js": "/TP1_CALIDAD_UNLAM/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/TP1_CALIDAD_UNLAM/index.html",
     "main.073c9b0a.css.map": "/TP1_CALIDAD_UNLAM/static/css/main.073c9b0a.css.map",
-    "main.3ed936fb.js.map": "/TP1_CALIDAD_UNLAM/static/js/main.3ed936fb.js.map",
+    "main.998f82e9.js.map": "/TP1_CALIDAD_UNLAM/static/js/main.998f82e9.js.map",
     "787.28cb0dcd.chunk.js.map": "/TP1_CALIDAD_UNLAM/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3ed936fb.js"
+    "static/js/main.998f82e9.js"
   ]
 }
