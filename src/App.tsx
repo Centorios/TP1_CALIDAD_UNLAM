@@ -12,11 +12,21 @@ function App() {
       alert('Completa los campos para poder calcular el triangulo');
       return;
     }
+
+    if (lado1 === undefined || lado2 === undefined || lado3 === undefined) {
+      alert('Completa los campos para poder calcular el triangulo');
+      return;
+    }
+
     if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
       alert('Ningun lado del triangulo puede ser 0 o menor que 0 ');
       return;
     }
-     if ((lado1 >= lado2 + lado3) || (lado3 >= lado2 + lado1) || (lado2 >= lado3 + lado1)) {
+    if (
+      lado1 >= lado2 + lado3 ||
+      lado3 >= lado2 + lado1 ||
+      lado2 >= lado3 + lado1
+    ) {
       alert('No es un triangulo, no cumple con la desigualdad triangular');
       return;
     }
@@ -26,11 +36,11 @@ function App() {
     }
 
     if (lado1 === lado2 || lado2 === lado3 || lado1 === lado3) {
-      alert('Triângulo Isósceles');
+      alert('El triangulo es isósceles');
       return;
     }
 
-    alert('Triângulo Escaleno');
+    alert('El triangulo es escaleno');
   };
 
   return (
